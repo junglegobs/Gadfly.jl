@@ -178,7 +178,7 @@ plot(x=1:9, y=y1, Geom.line, Geom.point,
         linestyle=[[8pt, 3pt, 2pt, 3pt]], Geom.line))
 ```
 
-All aesthetics have a Scale e.g. `Scale.x_continuous()` and some have a Guide e.g. `Guide.xticks()`.  [Scales](@ref) can be continuous or discrete. Some Scales also have a corresponding palette in `Theme()`.
+All aesthetics have a Scale e.g. `Scale.x_continuous()` and some have a Guide e.g. `Guide.xticks()`.  [Scales](@ref) can be continuous or discrete. Some Scales also have a corresponding palette in `Theme()`. **BE CAREFUL:** The order in which you pass the aesthetic arguments (Geometries, Guides, Scales...) matters!
 
 ## Continuous Scales
 
